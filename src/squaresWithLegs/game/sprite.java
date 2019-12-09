@@ -622,11 +622,11 @@ public class sprite {
                     activeHitbox = null;
                 }
 
-                //
+                //reset the hurtbox for the jump kick
                 int jump_kick_offset_index = costumeNum - start_costume - 1;
                 hurtbox_x_offset += JUMP_KICK_OFFSETS[jump_kick_offset_index][0];
                 hurtbox_y_offset += JUMP_KICK_OFFSETS[jump_kick_offset_index][1];
-            } else if (ShiftBlasting) {
+            } else if (ShiftBlasting) { //perform a shift blast
                 nextCostume();
 
                 int start_costume;
@@ -640,6 +640,7 @@ public class sprite {
                     end_costume = SHIFT_BLAST_END_R;
                 }
 
+                //set the location the character moves to at the end of the shift blast
                 if (costumeNum == end_costume) {
                     if (!LookingLeft) {
                         x += (MOVE_SPEED * 10);
@@ -653,6 +654,7 @@ public class sprite {
                     ActionLocked = false;
                 }
 
+                //activate the shift blast hitbox
                 if (costumeNum >= start_costume + SHIFT_BLAST_FRAME_DATA[0]
                         && costumeNum < start_costume + SHIFT_BLAST_FRAME_DATA[1]) {
                     int x_offset;
@@ -671,10 +673,11 @@ public class sprite {
                     activeHitbox = null;
                 }
 
+                //set the hurtbox for shift blasting
                 int shift_blast_offset_index = costumeNum - start_costume - 1;
                 hurtbox_x_offset += SHIFT_BLAST_OFFSETS[shift_blast_offset_index][0];
                 hurtbox_y_offset += SHIFT_BLAST_OFFSETS[shift_blast_offset_index][1];
-            } else if (GroundPounding) {
+            } else if (GroundPounding) { //perform a ground pound
                 nextCostume();
 
                 int start_costume;
@@ -693,6 +696,7 @@ public class sprite {
                     ActionLocked = false;
                 }
 
+                //activate the hitbox for the ground pound
                 if (costumeNum >= start_costume + GROUND_POUND_FRAME_DATA[0]
                         && costumeNum < start_costume + GROUND_POUND_FRAME_DATA[1]) {
                     int x_offset;
@@ -707,14 +711,15 @@ public class sprite {
                             (int) (hurtbox.getY() + GROUND_POUND_OFFSET_Y), GROUND_POUND_WIDTH, GROUND_POUND_LENGTH);
                 } //reactivate the hitbox on every frame to move as the character moves
 
-
+                //don't activate the hitbox after the active frames are over
                 if (costumeNum == start_costume + GROUND_POUND_FRAME_DATA[1]) {
                     activeHitbox = null;
                 }
 
+                //reset the hitbox for the ground pound
                 int ground_pound_offset_index = costumeNum - start_costume - 1;
                 hurtbox_y_offset += GROUND_POUND_OFFSETS[ground_pound_offset_index];
-            } else if (Sliding) {
+            } else if (Sliding) { //perform a slide
                 nextCostume();
 
                 int start_costume;
@@ -728,6 +733,7 @@ public class sprite {
                     end_costume = SLIDE_END_R;
                 }
 
+                //change the position of the character after the slide is done
                 if (costumeNum == end_costume) {
                     if (!LookingLeft) x += (MOVE_SPEED * 13);
                     if (LookingLeft) x -= (MOVE_SPEED * 13);
@@ -737,6 +743,7 @@ public class sprite {
                     ActionLocked = false;
                 }
 
+                //activate the hitbox for the slide
                 if (costumeNum >= start_costume + SLIDE_FRAME_DATA[0]
                         && costumeNum < start_costume + SLIDE_FRAME_DATA[1]) {
                     int x_offset;
@@ -751,14 +758,16 @@ public class sprite {
                             (int) (hurtbox.getY() + SLIDE_OFFSET_Y), SLIDE_WIDTH, SLIDE_LENGTH);
                 } //reactivate the hitbox on every frame to move as the character moves
 
+                //don't activate the hitbox when the move is no longer active
                 if (costumeNum == start_costume + SLIDE_FRAME_DATA[1]) {
                     activeHitbox = null;
                 }
 
+                //reset the hurtbox for the slide kick
                 int jump_kick_offset_index = costumeNum - start_costume - 1;
                 hurtbox_x_offset += SLIDE_OFFSETS[jump_kick_offset_index][0];
                 hurtbox_y_offset += SLIDE_OFFSETS[jump_kick_offset_index][1];
-            } else if (AirDashing) {
+            } else if (AirDashing) { //perform an air dash
                 nextCostume();
 
                 int start_costume;
@@ -772,6 +781,7 @@ public class sprite {
                     end_costume = AIR_DASH_END_R;
                 }
 
+                //set character's position to where the character lands when the air dash finished
                 if (costumeNum == end_costume) {
                     if (!LookingLeft) x = x - (MOVE_SPEED * 5);
                     if (LookingLeft) x = x + (MOVE_SPEED * 5);
@@ -781,11 +791,11 @@ public class sprite {
                     ActionLocked = false;
                 }
 
-
+                //reset the hurtbox for the air dash
                 int jump_kick_offset_index = costumeNum - start_costume - 1;
                 hurtbox_x_offset += AIR_DASH_OFFSETS[jump_kick_offset_index][0];
                 hurtbox_y_offset += AIR_DASH_OFFSETS[jump_kick_offset_index][1];
-            } else if (Konaming) {
+            } else if (Konaming) { //start konami form
                 nextCostume();
                 if (costumeNum == KONAMI_END_L - 3 || costumeNum == KONAMI_END_R - 3) {
                     Konaming = false;
@@ -803,9 +813,11 @@ public class sprite {
                     end_costume = KONAMI_END_R;
                 }
 
-                int jump_offset_index = costumeNum - start_costume - 1;
-                hurtbox_y_offset += KONAMI_OFFSETS[jump_offset_index];
+                //reset the hurtbox for when the character is activating konami form
+                int konami_offset_index = costumeNum - start_costume - 1;
+                hurtbox_y_offset += KONAMI_OFFSETS[konami_offset_index];
             } else {
+                //change hurtbox based on the direction the character is looking
                 if (LookingLeft) {
                     setCostume(LEFT_DEFAULT);
                 } else {
@@ -814,17 +826,18 @@ public class sprite {
             }
 
             if (LookingLeft) {
-                hurtbox_x_offset *= -1; //reverse the direction if sprite is looking left
+                hurtbox_x_offset *= -1; //reverse the direction of the hurtbox offset if sprite is looking left
                 hurtbox_x_offset += HURTBOX_OFFSET_X_L;
             } else {
                 hurtbox_x_offset += HURTBOX_OFFSET_X_R;
             }
 
+            //set hurtbox location based on all possible offsets
             hurtbox.setLocation(x + hurtbox_x_offset, y + hurtbox_y_offset);
 
-            if (possibleKonami && konamiIter == 8) { //detect beginning of a konimi code enter chain
+            if (possibleKonami && konamiIter == 8) { //detect beginning of a konami code enter chain
                 boolean maybeKonami = true;
-                for (int i = 0; i < konamiIter; i++) {
+                for (int i = 0; i < konamiIter; i++) { //check key sequence to make sure it is the konami code
                     if (afterJump[i] != konamiSeq[i]) maybeKonami = false;
                 }
                 if (maybeKonami) {
@@ -851,7 +864,7 @@ public class sprite {
                     if (LookingLeft) costumeNum = KONAMI_START_L;
                 }
                 konamiIter = 0;
-            } else if (possibleKonami) {
+            } else if (possibleKonami) { //if the key sequence was incorrect, stop the konami chain
                 for (int i = 0; i < konamiIter; i++) {
                     if (afterJump[i] != konamiSeq[i]) {
                         possibleKonami = false;
@@ -898,7 +911,7 @@ public class sprite {
     //track key release
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
-        if(key == DuckKey){
+        if(key == DuckKey){ //duck when the player presses down
             System.out.println("Down Key Pressed");
             if(!ActionLocked){
                 costumeNum = DUCK_START_R;
@@ -907,7 +920,7 @@ public class sprite {
                 ActionLocked = true;
             }
             if(Jumping){
-                if(costumeNum <= JUMP_START_R +4 && !LookingLeft){
+                if(costumeNum <= JUMP_START_R +4 && !LookingLeft){ //start a ground pound
                     costumeNum = GROUND_POUND_START_R + costumeNum - JUMP_START_R;
                     Jumping = false;
                     GroundPounding = true;
@@ -921,8 +934,8 @@ public class sprite {
                 }
             }
             if(SlowKicking){
-                if(costumeNum <= SLOW_KICK_START_R +4 && !LookingLeft){
-                    if (x + MOVE_SPEED*13 <= SCREEN_BOUND_R) {
+                if(costumeNum <= SLOW_KICK_START_R +4 && !LookingLeft){ //start a sliding kick
+                    if (x + MOVE_SPEED*13 <= SCREEN_BOUND_R) { //check bounds
                         costumeNum = SLIDE_START_R + costumeNum - SLOW_KICK_START_R;
                         SlowKicking = false;
                         Sliding = true;
@@ -930,7 +943,7 @@ public class sprite {
                     }
                 }
                 if(costumeNum <= SLOW_KICK_START_L +4 && LookingLeft){
-                    if (x - MOVE_SPEED *13 >= SCREEN_BOUND_L) {
+                    if (x - MOVE_SPEED *13 >= SCREEN_BOUND_L) { //check bounds
                         costumeNum = SLIDE_START_L + costumeNum - SLOW_KICK_START_L;
                         SlowKicking = false;
                         Sliding = true;
@@ -938,20 +951,20 @@ public class sprite {
                     }
                 }
             }
-            if(possibleKonami && konamiIter <8){
+            if(possibleKonami && konamiIter <8){ //continue konami chain if possible
                 afterJump[konamiIter] = DuckKey;
                 konamiIter++;
             }
         }
         if(key == JumpKey){
             System.out.println("Up Key Pressed");
-            if(!ActionLocked) {
+            if(!ActionLocked) { //jump when the up key was pressed
                 costumeNum = JUMP_START_R;
                 if (LookingLeft) costumeNum = JUMP_START_L;
                 Jumping = true;
                 ActionLocked = true;
             }
-            if(!possibleKonami && !Konaming && konamiIter <8 && konamiCooldown <0) {
+            if(!possibleKonami && !Konaming && konamiIter <8 && konamiCooldown <0) { //start konami sequence if possible
                 possibleKonami = true;
                 afterJump[konamiIter] = JumpKey;
                 System.out.println("possibleKonami");
@@ -960,15 +973,15 @@ public class sprite {
         }
         if(key == FastKey){
             System.out.println("Fast Attack Key Pressed");
-            if(!ActionLocked){
+            if(!ActionLocked){ //do a fast kick if the key was pressed
                 costumeNum = FAST_KICK_START_R;
                 if(LookingLeft) costumeNum = FAST_KICK_START_L;
                 Kicking = true;
                 ActionLocked = true;
             }
             if(Jumping){
-                if(costumeNum <= JUMP_START_R +4 && !LookingLeft){
-                    if (x + MOVE_SPEED * 7 <= SCREEN_BOUND_R) {
+                if(costumeNum <= JUMP_START_R +4 && !LookingLeft){ //do a jump kick if the right keys were pressed
+                    if (x + MOVE_SPEED * 7 <= SCREEN_BOUND_R) { //check bounds
                         costumeNum = JUMP_KICK_START_R + costumeNum - JUMP_START_R;
                         Jumping = false;
                         JumpKicking = true;
@@ -984,21 +997,21 @@ public class sprite {
                     }
                 }
             }
-            if(possibleKonami && konamiIter <8){
+            if(possibleKonami && konamiIter <8){ //continue konami code if possible
                 afterJump[konamiIter] = FastKey;
                 konamiIter++;
             }
         }
         if(key == SlowKey){
             System.out.println("Slow Attack Key Pressed");
-            if(!ActionLocked){
+            if(!ActionLocked){ //do a slow attack when the key is pressed
                 costumeNum = SLOW_KICK_START_R;
                 if(LookingLeft) costumeNum = SLOW_KICK_START_L;
                 SlowKicking = true;
                 ActionLocked = true;
             }
             if(MovingLeft){
-                if(costumeNum <= LEFT_MOVE_START_L +2){
+                if(costumeNum <= LEFT_MOVE_START_L +2){ //do a shift blast if the right keys were pressed
                     if (x - MOVE_SPEED*10 >= SCREEN_BOUND_L) {
                         costumeNum = SHIFT_BLAST_START_L + costumeNum - LEFT_MOVE_START_L;
                         MovingLeft = false;
@@ -1024,13 +1037,13 @@ public class sprite {
         }
         if(key == RightKey) {
             System.out.println("Right Key Pressed");
-            if(!ActionLocked){
+            if(!ActionLocked){ //move right when right is pressed
                 LookingLeft = false;
                 costumeNum = RIGHT_MOVE_START_R;
                 MovingRight = true;
                 ActionLocked = true;
             }
-            if( Jumping && LookingLeft){
+            if( Jumping && LookingLeft){ //do an air dash if possible
                 if(costumeNum <= JUMP_START_L +4){
                     if (x + MOVE_SPEED * 5 <= SCREEN_BOUND_R) {
                         costumeNum = AIR_DASH_START_L + costumeNum - JUMP_START_L;
@@ -1053,13 +1066,13 @@ public class sprite {
         }
         if(key == LeftKey){
             System.out.println("Left Key Pressed");
-            if(!ActionLocked) {
+            if(!ActionLocked) { //move left when left is pressed
                 LookingLeft = true;
                 costumeNum = LEFT_MOVE_START_L;
                 MovingLeft = true;
                 ActionLocked = true;
             }
-            if( Jumping && !LookingLeft){
+            if( Jumping && !LookingLeft){ //do an air dash if possible
                 if(costumeNum <= JUMP_START_R +4){
                     if (x - MOVE_SPEED * 5 >= SCREEN_BOUND_L) {
                         costumeNum = AIR_DASH_START_R + costumeNum - JUMP_START_R;

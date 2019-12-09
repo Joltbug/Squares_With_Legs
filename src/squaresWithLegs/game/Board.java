@@ -1106,15 +1106,26 @@ public class Board extends JPanel implements ActionListener {
     //draw images to the canvas
     private void doDraw(Graphics g){
         Graphics2D G2D = (Graphics2D) g;
+        //draw stage
         G2D.drawImage(stage.getImage(),0,0, this);
+
+        //draw the health bar for p1
         G2D.setColor(leftColor);
         G2D.fillRect((int) L_HealthRect.getX(), (int) L_HealthRect.getY()+((160-P1.getHealth())*3),(int) L_HealthRect.getWidth(), P1.getHealth()*3);
+
+        //draw the health bar for p2
         G2D.setColor(rightColor);
         G2D.fillRect((int) R_HealthRect.getX(), (int) R_HealthRect.getY()+((160-P2.getHealth())*3),(int) R_HealthRect.getWidth(), P2.getHealth()*3);
+
+        //draw character sprites
         G2D.drawImage(P1.getImage(), P1.getX(), P1.getY(), this);
         G2D.drawImage(P2.getImage(), P2.getX(), P2.getY(), this);
+
+        //draw the rectangles containing the health bars
         G2D.drawImage(L_Health.getImage(),0,0, this);
         G2D.drawImage(R_Health.getImage(),boardWidth - 64,0, this);
+
+        //draw the game over image if applicable
         if(gameOverCool>0){
             G2D.drawImage(GameOver.getImage(),  boardWidth/2 - 96, 264, this);
         }
@@ -1122,6 +1133,7 @@ public class Board extends JPanel implements ActionListener {
 
     // detect a collision between a hitbox and a hurtbox
     private void detectCollisions() {
+        //check when a p1 hitbox collides with p2
         Rectangle p1hitbox = P1.getActiveHitbox();
         if (p1hitbox != null) {
             boolean collision = P2.collidesWith(p1hitbox);
@@ -1130,6 +1142,7 @@ public class Board extends JPanel implements ActionListener {
             }
         }
 
+        //check when a p2 hitbox collides with p1
         Rectangle p2hitbox = P2.getActiveHitbox();
         if (p2hitbox != null) {
           boolean collision = P1.collidesWith(p2hitbox);
@@ -1240,11 +1253,11 @@ public class Board extends JPanel implements ActionListener {
                 gameOverCool = 20;
                 reset();
             }
-            repaint();
+            repaint(); //update images on each frame
             if (HitCool > 0) {
                 HitCool--;
             } else {
-                detectCollisions();
+                detectCollisions(); //detect when a collision between a hitbox and a hurtbox occurs
             }
         }
     }
