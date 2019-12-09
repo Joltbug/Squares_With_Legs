@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e76e225-4eda-4817-b8b9-ab2f18365d6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/josh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pingo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CFG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P1AirDash09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDash/P2AirDash09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P1AirDashLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/AirDashLeft/P2AirDashLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Background/SWL_Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P1Duck0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P1Duck1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P1Duck2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P1Duck3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P1Duck4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P2Duck0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P2Duck1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P2Duck2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P2Duck3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Duck/P2Duck4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P1DuckLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P1DuckLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P1DuckLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P1DuckLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P1DuckLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P2DuckLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P2DuckLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P2DuckLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P2DuckLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/DuckLeft/P2DuckLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GameOver/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P1GroundPound11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPound/P2GroundPound11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P1GroundPoundLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/GroundPoundLeft/P2GroundPoundLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Health/Health0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Health/Health1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P1Jump5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Jump/P2Jump5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P1JumpKick6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKick/P2JumpKick8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P1JumpKickLeft8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpKickLeft/P2JumpKickRedLeft8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P1JumpLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/JumpLeft/P2JumpLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P1Fast0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P1Fast1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P1Fast2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P1Fast3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P1Fast4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P2Fast0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P2Fast1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P2Fast2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P2Fast3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Kick/P2Fast4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P1FastLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P1FastLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P1FastLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P1FastLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P1FastLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P2FastLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P2FastLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P2FastLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P2FastLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KickLeft/P2FastLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P1Konami10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Konami/P2Konami10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P1KonamiLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/KonamiLeft/P2KonamiLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P1Move5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Move/P2Move5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P1MoveLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/MoveLeft/P2MoveLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P1ShiftBlast12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlast/P2ShiftBlast12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P1ShiftBlastLeft12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ShiftBlastLeft/P2ShiftBlastLeft15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P1Slide10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Slide/P2Slide11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P1SlideLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlideLeft/P2SlideLeft11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P1Slow7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKick/P2Slow7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P1SlowLeft7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SlowKickLeft/P2SlowLeft7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.floo" beforeDir="false" afterPath="$PROJECT_DIR$/.floo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SquaresWithLegs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SquaresWithLegs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/Board$TAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/costume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/sprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/squaresWithLegs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/squaresWithLegs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/squaresWithLegs/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/squaresWithLegs/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/squaresWithLegs/game/costume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/squaresWithLegs/game/costume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/squaresWithLegs/game/sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/squaresWithLegs/game/sprite.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testJDK" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TaNDapOEqsi1mzi2ImbBW4SHfn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images/GameOver" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images/GameOver" />
+      <recent name="$PROJECT_DIR$/Images/Background" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SquaresWithLegs" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="MAIN_CLASS_NAME" value="squaresWithLegs.game.squaresWithLegs" />
+      <module name="SquaresWithLegs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e76e225-4eda-4817-b8b9-ab2f18365d6f" name="Default Changelist" comment="" />
+      <created>1573694127386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573694127386</updated>
+    </task>
+    <task id="LOCAL-00001" summary="IntelliJ Setup Complete">
+      <created>1573696352395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573696352395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="IntelliJ Setup Complete">
+      <created>1573697189819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573697189819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IntelliJ Setup Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ Setup Complete" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1171" y="356" width="1961" height="1408" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575519029210">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state x="1171" y="356" width="1961" height="1408" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575519029210" />
+    <state x="1674" y="596" width="1311" height="1050" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575478153372">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state x="1674" y="596" width="1311" height="1050" key="#com.intellij.ide.util.TreeClassChooserDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575478153372" />
+    <state width="3726" height="476" key="GridCell.Tab.0.bottom" timestamp="1575863671653">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state width="3726" height="476" key="GridCell.Tab.0.bottom/0.64.3840.1950@0.64.3840.1950" timestamp="1575863671653" />
+    <state width="3726" height="476" key="GridCell.Tab.0.center" timestamp="1575863671652">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state width="3726" height="476" key="GridCell.Tab.0.center/0.64.3840.1950@0.64.3840.1950" timestamp="1575863671652" />
+    <state width="3726" height="476" key="GridCell.Tab.0.left" timestamp="1575863671652">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state width="3726" height="476" key="GridCell.Tab.0.left/0.64.3840.1950@0.64.3840.1950" timestamp="1575863671652" />
+    <state width="3726" height="476" key="GridCell.Tab.0.right" timestamp="1575863671652">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state width="3726" height="476" key="GridCell.Tab.0.right/0.64.3840.1950@0.64.3840.1950" timestamp="1575863671652" />
+    <state x="691" y="119" width="2457" height="1836" key="SettingsEditor" timestamp="1575518939399">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state x="691" y="119" width="2457" height="1836" key="SettingsEditor/0.64.3840.1950@0.64.3840.1950" timestamp="1575518939399" />
+    <state x="1156" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1575854915232">
+      <screen x="0" y="64" width="3840" height="1950" />
+    </state>
+    <state x="1156" y="495" key="com.intellij.ide.util.TipDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575854915232" />
+  </component>
+</project>

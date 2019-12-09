@@ -3,7 +3,8 @@ package squaresWithLegs.game;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
-public class costume{
+
+public class costume{ //costume class for painting to canvas
     Image image;
     String Location;
     public costume(String loc){
