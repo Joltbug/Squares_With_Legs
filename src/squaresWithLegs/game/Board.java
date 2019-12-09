@@ -1159,77 +1159,152 @@ public class Board extends JPanel implements ActionListener {
         if(s.getPlayerNum() == 1) {
             //if P1 takes a hit
             HitCool = 6;
+            boolean isDucking = false;
+            if(P1.getCurrentAction() == "Ducking")isDucking = true;
             if (P2.getCurrentAction() == "Kicking") {
 
                 //P1 takes kick damage
-                P1.setHealth(P1.getHealth()-KICK_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(KICK_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - KICK_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
             }
             if (P2.getCurrentAction() == "SlowKicking") { //P1 takes slowkick damage
-                P1.setHealth(P1.getHealth()-SLOWKICK_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(SLOWKICK_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - SLOWKICK_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
 
             }
             if (P2.getCurrentAction() == "JumpKicking") { //P1 takes jumpkick damage
-                P1.setHealth(P1.getHealth()-JUMPKICK_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(JUMPKICK_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - JUMPKICK_DAMAGE);
+                }
+
                 System.out.println(P1.getHealth());
 
             }
             if(P2.getCurrentAction() == "GroundPounding"){
-                P1.setHealth(P1.getHealth()-GROUND_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(GROUND_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - GROUND_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
 
             }
             if(P2.getCurrentAction() == "ShiftBlasting"){
-                P1.setHealth(P1.getHealth()-SHIFTBLAST_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(SHIFTBLAST_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - SHIFTBLAST_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
 
             }
             if (P2.getCurrentAction() == "Sliding"){
-                P1.setHealth(P1.getHealth()-SLIDE_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(SLIDE_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - SLIDE_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
 
             }
             if(P2.getCurrentAction() == "konamiForm"){
-                P1.setHealth(P1.getHealth()-KONAMI_DAMAGE);
+                if(isDucking){
+                    P1.setHealth(P1.getHealth()-(KONAMI_DAMAGE/2));
+                }
+                else {
+                    P1.setHealth(P1.getHealth() - KONAMI_DAMAGE);
+                }
                 System.out.println(P1.getHealth());
 
             }
         }
         if(s.getPlayerNum() == 2) { //if P2 takes a hit
             HitCool = 6;
+            boolean isDucking = false;
+            if(P2.getCurrentAction() == "Ducking")isDucking = true;
             if (P1.getCurrentAction() == "Kicking") { //P2 takes kick damage
-                P2.setHealth(P2.getHealth()-KICK_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(KICK_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - KICK_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if (P1.getCurrentAction() == "SlowKicking") { //P2 takes slowkick damage
-                P2.setHealth(P2.getHealth()-SLOWKICK_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(SLOWKICK_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - SLOWKICK_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if (P1.getCurrentAction() == "JumpKicking") { //P2 takes jumpkick damage
-                P2.setHealth(P2.getHealth()-JUMPKICK_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(JUMPKICK_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - JUMPKICK_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if(P1.getCurrentAction() == "GroundPounding"){
-                P2.setHealth(P2.getHealth()-GROUND_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(GROUND_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - GROUND_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if(P1.getCurrentAction() == "ShiftBlasting"){
-                P2.setHealth(P2.getHealth()-SHIFTBLAST_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(SHIFTBLAST_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - SHIFTBLAST_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if (P1.getCurrentAction() == "Sliding"){
-                P2.setHealth(P2.getHealth()-SLIDE_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(SLIDE_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - SLIDE_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }
             if(P1.getCurrentAction() == "konamiForm"){
-                P2.setHealth(P2.getHealth()-KONAMI_DAMAGE);
+                if(isDucking){
+                    P2.setHealth(P2.getHealth()-(KONAMI_DAMAGE/2));
+                }
+                else {
+                    P2.setHealth(P2.getHealth() - KONAMI_DAMAGE);
+                }
                 System.out.println(P2.getHealth());
 
             }

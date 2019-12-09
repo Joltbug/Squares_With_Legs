@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e76e225-4eda-4817-b8b9-ab2f18365d6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/Board$TAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/costume.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/sprite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/squaresWithLegs$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquaresWithLegs/squaresWithLegs/game/squaresWithLegs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/squaresWithLegs/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/squaresWithLegs/game/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/squaresWithLegs/game/sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/squaresWithLegs/game/sprite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575865633424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project Complete! Enjoy Squares with Legs">
+      <created>1575867460077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575867460077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,10 +131,10 @@
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
     <state x="1674" y="596" width="1311" height="1050" key="#com.intellij.ide.util.TreeClassChooserDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575478153372" />
-    <state x="1022" y="181" width="1785" height="1711" key="CommitChangelistDialog2" timestamp="1575865632975">
+    <state x="1022" y="161" width="1785" height="1711" key="CommitChangelistDialog2" timestamp="1575867459866">
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
-    <state x="1022" y="181" width="1785" height="1711" key="CommitChangelistDialog2/0.64.3840.1950@0.64.3840.1950" timestamp="1575865632975" />
+    <state x="1022" y="161" width="1785" height="1711" key="CommitChangelistDialog2/0.64.3840.1950@0.64.3840.1950" timestamp="1575867459866" />
     <state width="3726" height="476" key="GridCell.Tab.0.bottom" timestamp="1575865851141">
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
@@ -156,13 +155,13 @@
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
     <state x="691" y="119" width="2457" height="1836" key="SettingsEditor/0.64.3840.1950@0.64.3840.1950" timestamp="1575518939399" />
-    <state x="915" y="371" width="2000" height="1332" key="Vcs.Push.Dialog.v2" timestamp="1575865644749">
+    <state x="915" y="351" width="2000" height="1332" key="Vcs.Push.Dialog.v2" timestamp="1575867468882">
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
-    <state x="915" y="371" width="2000" height="1332" key="Vcs.Push.Dialog.v2/0.64.3840.1950@0.64.3840.1950" timestamp="1575865644749" />
-    <state x="1156" y="475" key="com.intellij.ide.util.TipDialog" timestamp="1575866530812">
+    <state x="915" y="351" width="2000" height="1332" key="Vcs.Push.Dialog.v2/0.64.3840.1950@0.64.3840.1950" timestamp="1575867468882" />
+    <state x="1156" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1575867537233">
       <screen x="0" y="64" width="3840" height="1950" />
     </state>
-    <state x="1156" y="475" key="com.intellij.ide.util.TipDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575866530812" />
+    <state x="1156" y="455" key="com.intellij.ide.util.TipDialog/0.64.3840.1950@0.64.3840.1950" timestamp="1575867537233" />
   </component>
 </project>
