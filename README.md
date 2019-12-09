@@ -27,25 +27,6 @@ Max Kramer, Josh Tuner, Aidan Wiley Lippke, Simon Harris
 - AIRDASH
   - JUMP, MOVE LEFT/RIGHT
 
-6
-​
-7
-UP = JUMP
-8
-LEFT = MOVE LEFT
-9
-RIGHT = MOVE RIGHT
-10
-DOWN = DUCK
-11
-​
-12
-SLOW = SLOW KICK
-13
-FAST 
-- SLIDE
-  - SLOW + DUCK
-
 - KONAMI
   - UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT SLOW FAST
   
@@ -56,8 +37,8 @@ FAST
   - First line must say CONFIG
   - Next line is screen width
   - Next line is (as single chars) key bindings for P1
-   - UP, LEFT, DOWN, RIGHT, FAST, SLOW
+    - UP, LEFT, DOWN, RIGHT, FAST, SLOW
   - Last line is (as single chars) key bindings for P2
-   - UP, LEFT, DOWN, RIGHT, FAST, SLOW
+    - UP, LEFT, DOWN, RIGHT, FAST, SLOW
 
 ---
